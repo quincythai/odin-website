@@ -19,8 +19,8 @@ body {
 }
 
 .logo {
-  font-size: 26px;
-  font-weight: extra-bold;
+  font-size: 18px;
+  font-weight: 800;
   color: #F9FAF8;
 }
 
@@ -58,7 +58,6 @@ a {
 .thumbnail-img {
   width: auto;
   height: 200px;
-  flex: 1;
 }
 
 .grid-container {
@@ -93,4 +92,25 @@ button {
   border-radius: 6px;
   background-color: #3882F6;
   color: #F9FAF8;
+}
+
+.grid-header {
+  font-weight: bolder;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.second-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 0px;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.grid-image {
+  width: 200px;
 }
