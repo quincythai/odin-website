@@ -20,8 +20,12 @@ body {
   white-space: nowrap;
 }
 
+.right-links {
+  font-size: 30px;
+}
+
 .logo {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 800;
   color: #F9FAF8;
 }
@@ -60,17 +64,17 @@ a {
 
 .description {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .subtext {
   margin-bottom: 10px;
+  font-size: 30px;
   color: #F9FAF8;
 }
 
 .thumbnail-img {
-  width: 500px;
-  height: auto;
+  width: 600px;
 }
 
 .grid-container {
@@ -94,13 +98,14 @@ a {
   color: #F9FAF8;
 }
 
-button {
-  padding: 10px 24px;
+.text-container button {
+  padding: 12px 24px;
   border: none;
   border-radius: 6px;
   background-color: #3882F6;
   color: #F9FAF8;
-  max-width: 100px;
+  width: 140px;
+  font-size: 24px;
 }
 
 .second-section-container {
@@ -119,7 +124,7 @@ button {
 .grid-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .grid-image {
@@ -130,22 +135,30 @@ button {
   border-radius: 20px;
 }
 
+.grid-image-text {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
 .grid-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  gap: 16px;
-}
-
-.grid-image-text {
-  width: 180px;
 }
 
 .quote-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 200px;
+}
+
+.quote {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.author {
+  font-size: 20px;
+  text-align: right;
+  font-weight: bold;
 }
 
 .section {
