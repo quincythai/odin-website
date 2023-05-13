@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -85,6 +89,7 @@ a {
 .section {
   flex: 1;
   padding: 0 200px;
+  height: 100%;
 }
 
 button {
