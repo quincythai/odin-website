@@ -21,11 +21,11 @@ body {
 }
 
 .right-links {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   color: #F9FAF8;
 }
@@ -64,17 +64,17 @@ a {
 
 .description {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 40px;
 }
 
 .subtext {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: #F9FAF8;
 }
 
 .thumbnail-img {
-  width: 600px;
+  width: 500px;
 }
 
 .grid-container {
@@ -104,12 +104,8 @@ a {
   border-radius: 6px;
   background-color: #3882F6;
   color: #F9FAF8;
-  width: 140px;
-  font-size: 24px;
-}
-
-.second-section-container {
-  display: block;
+  width: 100px;
+  font-size: 18px;
 }
 
 .grid-header {
@@ -124,19 +120,19 @@ a {
 .grid-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .grid-image {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
-  border: 5px #3882F6 solid;
+  border: 2px #3882F6 solid;
   border-radius: 20px;
 }
 
 .grid-image-text {
-  margin: 20px 0;
+  margin-top: 10px;
   font-size: 20px;
 }
 
