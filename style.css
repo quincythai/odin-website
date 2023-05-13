@@ -1,6 +1,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -98,13 +99,14 @@ button {
   font-weight: bolder;
   font-size: 36px;
   color: #1F2937;
+  margin-bottom: 50px;
 }
 
 .second-section-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 42px 0px;
+  margin: 40px 0;
 }
 
 .grid-container {
@@ -113,4 +115,15 @@ button {
 
 .grid-image {
   width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid;
+  border-radius: 20px;
+}
+
+.grid-image-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
 }
