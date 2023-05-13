@@ -104,12 +104,12 @@ button {
 }
 
 .second-section-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
 }
 
 .grid-header {
+  display: flex;
+  justify-content: center;
   font-weight: bolder;
   font-size: 36px;
   color: #1F2937;
@@ -118,6 +118,7 @@ button {
 
 .grid-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
