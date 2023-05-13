@@ -143,6 +143,10 @@ a {
 }
 
 .quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0 200px;
 }
 
@@ -157,7 +161,8 @@ a {
   font-weight: bold;
 }
 
-.section {
-  padding: 0 200px;
-  flex-shrink: 0;
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
